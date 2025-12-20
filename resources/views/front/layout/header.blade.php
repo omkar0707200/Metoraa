@@ -35,7 +35,7 @@
 						<li class="nav-item active">
 							<a class="nav-link" href="{{ route('home') }}">Home</a>
 						</li>
-						<li><a class="nav-link" href="{{ route('shop') }}">Products</a></li>
+						<li><a class="nav-link" href="{{ route('products.index') }}">Products</a></li>
 						<li><a class="nav-link" href="{{ route('aboutus') }}">About us</a></li>
 						<li><a class="nav-link" href="{{ route('services') }}">Services</a></li>
 						<li><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
