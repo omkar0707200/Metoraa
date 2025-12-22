@@ -1,21 +1,23 @@
 <footer class="footer-section">
     <div class="container relative">
 
-        {{-- <div class="sofa-img">
-            <img src="/images/sofa.png" alt="Image" class="img-fluid">
-        </div> --}}
-
+        <!-- ================= NEWSLETTER ================= -->
         <div class="row">
             <div class="col-lg-8">
                 <div class="subscription-form">
-                    <h3 class="d-flex align-items-center"><span class="me-1"><img src="/images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+                    <h3 class="d-flex align-items-center">
+                        <span class="me-1">
+                            <img src="/images/envelope-outline.svg" alt="Newsletter" class="img-fluid">
+                        </span>
+                        <span>Subscribe to Updates</span>
+                    </h3>
 
                     <form action="#" class="row g-3">
                         <div class="col-auto">
-                            <input type="text" class="form-control" placeholder="Enter your name">
+                            <input type="text" class="form-control" placeholder="Your name">
                         </div>
                         <div class="col-auto">
-                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <input type="email" class="form-control" placeholder="Your email">
                         </div>
                         <div class="col-auto">
                             <button class="btn btn-primary">
@@ -23,74 +25,92 @@
                             </button>
                         </div>
                     </form>
-
                 </div>
             </div>
         </div>
 
+        <!-- ================= FOOTER CONTENT ================= -->
         <div class="row g-5 mb-5">
+
+            <!-- BRAND -->
             <div class="col-lg-4">
-                <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo"><span>Metoraa</span></a></div>
-                <p class="mb-4">At Metoraa, we design spaces that feel fresh, balanced, and effortlessly modern. Our team blends aesthetics with practical thinking, making sure every layout supports comfort, flow, and purpose. Whether it’s a home, café, studio, or commercial workspace, we help you shape environments that look great and work even better.</p>
+                <div class="mb-4 footer-logo-wrap">
+                    <a href="{{ url('/') }}" class="footer-logo"><span>Metoraa</span></a>
+                </div>
+
+                <p class="mb-4">
+                    Metoraa is a modern B2B marketplace for commercial kitchen equipment,
+                    manufacturing machinery, and industrial tools. We help businesses across
+                    India source verified equipment with transparent pricing, nationwide delivery,
+                    and expert support.
+                </p>
 
                 <ul class="list-unstyled custom-social">
                     <li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-                    <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-                    <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
                     <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+                    <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
                 </ul>
             </div>
 
+            <!-- LINKS -->
             <div class="col-lg-8">
                 <div class="row links-wrap">
+
                     <div class="col-6 col-sm-6 col-md-3">
                         <ul class="list-unstyled">
-                            <li><a href="{{ route('aboutus') }}">About us</a></li>
+                            <li><a href="{{ route('aboutus') }}">About Us</a></li>
                             <li><a href="{{ route('services') }}">Services</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
-                            <li><a href="{{ route('contactus') }}">Contact us</a></li>
+                            <li><a href="{{ route('contactus') }}">Contact Us</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-6 col-md-3">
                         <ul class="list-unstyled">
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Shipping & Delivery</a></li>
+                            <li><a href="#">Returns & Refunds</a></li>
                             <li><a href="#">Support</a></li>
-                            <li><a href="#">Knowledge base</a></li>
-                            <li><a href="#">Live chat</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-sm-6 col-md-3">
                         <ul class="list-unstyled">
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Our team</a></li>
-                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Commercial Kitchen Equipment</a></li>
+                            <li><a href="#">Manufacturing Machinery</a></li>
+                            <li><a href="#">Industrial Equipment</a></li>
+                            <li><a href="#">Bulk Orders</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <ul class="list-unstyled">
                             <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <ul class="list-unstyled">
-                            <li><a href="#">Nordic Chair</a></li>
-                            <li><a href="#">Kruzo Aero</a></li>
-                            <li><a href="#">Ergonomic Chair</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
 
         </div>
 
+        <!-- ================= COPYRIGHT ================= -->
         <div class="border-top copyright">
             <div class="row pt-4">
+
                 <div class="col-lg-6">
-                    <p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  <!-- License information: https://untree.co/license/ -->
-    </p>
+                    <p class="mb-2 text-center text-lg-start">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script>
+                        Metoraa. All Rights Reserved.
+                    </p>
                 </div>
 
                 <div class="col-lg-6 text-center text-lg-end">
                     <ul class="list-unstyled d-inline-flex ms-auto">
-                        <li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+                        <li class="me-4"><a href="#">Terms & Conditions</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
@@ -100,12 +120,10 @@
 
     </div>
 </footer>
-<!-- End Footer Section -->	
-
+<!-- End Footer Section -->
 
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/tiny-slider.js"></script>
 <script src="/js/custom.js"></script>
 </body>
-
 </html>
