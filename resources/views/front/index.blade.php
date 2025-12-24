@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="hero-img-wrap">
-                    <img src="/images/Hero_banner-min.jpg" class="img-fluid img-fluid-banner" alt="Metoraa Equipment Marketplace">
+                    <img src="/images/home_page.jpeg" class="img-fluid img-fluid-banner" alt="Metoraa Equipment Marketplace">
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
 
         <div class="col-lg-5">
             <div class="img-wrap">
-                <img src="/images/why-choose-us-img.png" class="img-fluid" alt="Why Choose Metoraa">
+                <img src="/images/why-choose-us-img-new.png" class="img-fluid" alt="Why Choose Metoraa">
             </div>
         </div>
     </div>
@@ -132,9 +132,9 @@
     <div class="row justify-content-between">
         <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="imgs-grid">
-                <div class="grid grid-1"><img src="/images/img-grid-1.png"></div>
-                <div class="grid grid-2"><img src="/images/img-grid-2.png"></div>
-                <div class="grid grid-3"><img src="/images/img-grid-3.png"></div>
+                <div class="grid grid-1"><img src="/images/Fright_home.png"></div>
+                <div class="grid grid-2"><img src="/images/product_home_2.png"></div>
+                <div class="grid grid-3"><img src="/images/product_home_3.png"></div>
             </div>
         </div>
         <div class="col-lg-5 ps-lg-5">

@@ -4,8 +4,20 @@
 
 <!-- ================= HEADER ================= -->
 <section class="plp-header">
-    <h1>Products</h1>
-    <p>Browse our complete range of products</p>
+    <div class="plp-header-inner">
+        <div class="plp-header-text">
+            <h1>Products</h1>
+            <p>Browse our complete range of products</p>
+        </div>
+
+        <div class="plp-header-image">
+            <img
+                src="/images/product_page.png"
+                class="img-fluid"
+                alt="Metoraa Equipment Marketplace"
+            >
+        </div>
+    </div>
 </section>
 
 <!-- ================= TOOLBAR ================= -->
@@ -293,6 +305,60 @@
     .plp-header h1 { font-size: 30px; }
     /* .product-image { aspect-ratio: 1 / 1; } */
 }
+/* HEADER */
+.plp-header {
+    background: var(--green);
+    padding: 70px 8%;
+    color: #fff;
+}
+
+.plp-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.plp-header-text {
+    max-width: 50%;
+}
+
+.plp-header h1 {
+    font-size: 38px;
+}
+
+.plp-header p {
+    opacity: 0.85;
+}
+
+/* RIGHT IMAGE */
+.plp-header-image img {
+    max-width: 820px;
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+}
+
+/* HIDE IMAGE ON MOBILE */
+@media (max-width: 768px) {
+    .plp-header-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plp-header-text {
+        max-width: 100%;
+    }
+
+    .plp-header-image {
+        display: none;
+    }
+
+    .plp-header h1 {
+        font-size: 30px;
+    }
+}
+
 </style>
 
 @endsection

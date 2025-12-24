@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="hero-img-wrap">
-                            {{-- <img src="/images/couch.png" class="img-fluid"> --}}
+                            <img src="/images/blog.png" class="img-fluid" style="height: 439px; width: 100%;">
                         </div>
                     </div>
                 </div>

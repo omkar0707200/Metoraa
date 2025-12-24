@@ -27,7 +27,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="hero-img-wrap">
-                    {{-- Optional about illustration --}}
+                    <img src="/images/about_us.png" class="img-fluid" >
                 </div>
             </div>
         </div>

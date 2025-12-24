@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="hero-img-wrap">
-                    {{-- Optional contact illustration --}}
+                    <img src="/images/contact_us.png" class="img-fluid" style="height: 439px; width: 100%;">
                 </div>
             </div>
         </div>

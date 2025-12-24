@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-7">
                 <div class="hero-img-wrap">
-                    {{-- Optional service illustration --}}
+                    <img src="/images/our_services.png" class="img-fluid" style="height: 439px; width: 100%;">
                 </div>
             </div>
         </div>
