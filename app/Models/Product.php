@@ -29,6 +29,7 @@ class Product extends Model
         'status',
         'meta_title',
         'meta_description',
+        'discount_percentage',
     ];
 
     protected $casts = [

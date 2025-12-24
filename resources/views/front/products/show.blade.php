@@ -227,7 +227,7 @@
     </section>
 
     <!-- Related Products -->
-    @if($relatedProducts->count() > 0)
+    {{-- @if($relatedProducts->count() > 0)
         <section class="related-products">
             <div class="container">
                 <h2 class="section-title">Related Products</h2>
@@ -258,7 +258,7 @@
                 </div>
             </div>
         </section>
-    @endif
+    @endif --}}
 </div>
 
 <style>

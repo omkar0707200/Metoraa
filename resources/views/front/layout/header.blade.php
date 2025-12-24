@@ -32,15 +32,37 @@
 
 				<div class="collapse navbar-collapse" id="navbarsFurni">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="{{ route('home') }}">Home</a>
+						<li class="nav-item {{ request()->routeIs('home') ? 'active' : '' }}">
+							<a class="nav-link "
+							   href="{{ route('home') }}">Home</a>
 						</li>
-						<li><a class="nav-link" href="{{ route('products.index') }}">Products</a></li>
-						<li><a class="nav-link" href="{{ route('aboutus') }}">About us</a></li>
-						<li><a class="nav-link" href="{{ route('services') }}">Services</a></li>
-						<li><a class="nav-link" href="{{ route('blog') }}">Blog</a></li>
-						<li><a class="nav-link" href="{{ route('contactus') }}">Contact us</a></li>
+					
+						<li class="nav-item {{ request()->routeIs('products.*') ? 'active' : '' }}">
+							<a class="nav-link "
+							   href="{{ route('products.index') }}">Products</a>
+						</li>
+					
+						<li class="nav-item {{ request()->routeIs('aboutus') ? 'active' : '' }}">
+							<a class="nav-link "
+							   href="{{ route('aboutus') }}">About us</a>
+						</li>
+					
+						<li class="nav-item {{ request()->routeIs('services') ? 'active' : '' }}">
+							<a class="nav-link "
+							   href="{{ route('services') }}">Services</a>
+						</li>
+					
+						<li class="nav-item {{ request()->routeIs('blog') ? 'active' : '' }}">
+							<a class="nav-link "
+							   href="{{ route('blog') }}">Blog</a>
+						</li>
+					
+						<li class="nav-item {{ request()->routeIs('contactus') ? 'active' : '' }}">
+							<a class="nav-link"
+							   href="{{ route('contactus') }}">Contact us</a>
+						</li>
 					</ul>
+					
 
 					{{-- <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 						<li><a class="nav-link" href="#"><img src="/images/user.svg"></a></li>

@@ -16,7 +16,7 @@
                     </p>
                     <p>
                         <a href="{{ url('/products') }}" class="btn btn-secondary me-2">Browse Products</a>
-                        <a href="{{ url('/contact') }}" class="btn btn-white-outline">Request a Quote</a>
+                        <a href="{{ url('/contact-us') }}" class="btn btn-white-outline">Request a Quote</a>
                     </p>
                 </div>
             </div>
